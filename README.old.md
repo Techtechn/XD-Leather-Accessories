@@ -1,1 +1,0 @@
-# XD-Leather-Accessories Site
