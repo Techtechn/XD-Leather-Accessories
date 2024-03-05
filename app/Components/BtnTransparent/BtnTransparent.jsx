@@ -1,11 +1,11 @@
 import React from "react";
 
-const Btn = ({ text }) => {
+const BtnTransparent = ({ text }) => {
   return (
-    <div className="Btn">
+    <div className="BtnTransparent">
       {/* #F7B34As */}
       <button
-        className="h-10 px-6 font-medium rounded-md bg-[#F7B34A]  text-black"
+        className="h-10 px-6 font-medium rounded-md bg-transparent border border-white text-black"
         type="submit"
         // style={{ backGroundColor: "#F7B34As" }}
       >
@@ -15,4 +15,4 @@ const Btn = ({ text }) => {
   );
 };
 
-export default Btn;
+export default BtnTransparent;

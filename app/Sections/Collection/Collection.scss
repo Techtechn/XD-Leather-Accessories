@@ -1,28 +1,14 @@
-.HomeHeader {
+.Collection {
   background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)),
-    url("../../assets/Banner-1.png");
+    url("../../assets/Banner-2.png");
   height: 99vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  .phoneImg {
-    animation: move 3s infinite ease alternate;
-  }
-
-  @keyframes move {
-    from {
-      transform: translateY(-15px);
-    }
-
-    // to {
-    //   transform: translateY(0px) scale(1.03);
-    // }
-  }
 }
 
 @media (max-width: 600px) {
-  .HomeHeader {
+  .Collection {
     // height: 100vh;
 
     // .py-24 {

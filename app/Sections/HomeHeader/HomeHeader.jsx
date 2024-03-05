@@ -2,7 +2,8 @@ import React from "react";
 import Nav from "../../Components/Nav/Nav";
 import "./HomeHeader.scss";
 import Image from "next/image";
-import Vercel from "../../../public/vercel.svg";
+import Logo from "../../assets/XD-logo.png";
+import Btn from "@/app/Components/Btn/Btn";
 
 // #f2f7f8 bg
 // #3d4f60 text
@@ -43,14 +44,15 @@ const HomeHeader = () => {
                 enduring quality.
               </p>
             </div>
-            <div className="flex mt-10">
+            <div className="text-center mt-5">
               {/* <button className="bg-transparent text-gray-900 ml-3 font-semibold border text-sm p-2 m-1 rounded-sm border-black">
                 Feel the Innovation
               </button> */}
+              <Btn text="Shop" />
             </div>
           </div>
           <div className="text-center flex justify-center items-center">
-            {/* <Image className="phoneImg" src={Img} alt="Logo" /> */}
+            <Image className="" src={Logo} alt="Logo" />
           </div>
         </div>
       </div>
