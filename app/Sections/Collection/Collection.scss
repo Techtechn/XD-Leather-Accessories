@@ -1,7 +1,7 @@
 .Collection {
   background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)),
     url("../../assets/Banner-2.png");
-  height: 99vh;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,6 +16,7 @@
 
     .text {
       margin-top: 5%;
+      margin-bottom: 5%;
 
       .ImgMe {
         width: 300px;
