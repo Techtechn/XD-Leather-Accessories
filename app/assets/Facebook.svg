@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
+  <defs>
+    <filter id="Ellipse_12" x="0" y="0" width="85" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Facebook_Button_fixed" data-name="Facebook Button fixed" transform="translate(22.5 12.5)">
+    <g transform="matrix(1, 0, 0, 1, -22.5, -12.5)" filter="url(#Ellipse_12)">
+      <g id="Ellipse_12-2" data-name="Ellipse 12" transform="translate(22.5 12.5)" fill="#fff" stroke="#fafafa" stroke-width="1">
+        <circle cx="20" cy="20" r="20" stroke="none"/>
+        <circle cx="20" cy="20" r="19.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Path_2" data-name="Path 2" d="M19.5,7H16.832C13.434,6.952,13,9.982,13,13.26v2.384H11.5c-.3-.049-.535.3-.5.72v4.322c-.035.425.2.769.5.72H13v10.8c-.031.425.208.769.5.72h3.055c.3.049.534-.3.44-.72l0-10.8h2.5c.3.049.535-.3.5-.72V16.365c.035-.425-.2-.769-.5-.72H17l0-2.161c.1-.92.1-.771.69-.72h1.789c.139-.045.287-.02.391-.166A.747.747,0,0,0,20,12.043V7.722C20.035,7.3,19.8,6.952,19.5,7Zm-.535,4.241-1.254-.069c-1.553,0-1.683,1.214-1.683,2.458l0,2.731a.976.976,0,0,0,.156.546.469.469,0,0,0,.378.225H19v2.783H16.56c-.3,0-.534.344-.535.769V31.49H14v-10.8c0-.425-.2-.769-.5-.769H12V17.134h1.5a.469.469,0,0,0,.378-.225A.962.962,0,0,0,14,16.363v-3.1c0-3.23.453-4.768,2.832-4.768h2.133v2.751Z" transform="translate(3.759 0.034)" fill="#aa8a01"/>
+  </g>
+</svg>
