@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="457" height="434" viewBox="0 0 457 434">
+  <defs>
+    <filter id="Rectangle_360" x="0" y="0" width="351" height="369" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_361" x="215" y="192" width="242" height="242" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_284" data-name="Group 284" transform="translate(-157.5 -4817.5)">
+    <g transform="matrix(1, 0, 0, 1, 157.5, 4817.5)" filter="url(#Rectangle_360)">
+      <g id="Rectangle_360-2" data-name="Rectangle 360" transform="translate(37.5 17.5)" fill="#102820" stroke="#707070" stroke-width="1">
+        <rect width="276" height="294" rx="30" stroke="none"/>
+        <rect x="0.5" y="0.5" width="275" height="293" rx="29.5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 157.5, 4817.5)" filter="url(#Rectangle_361)">
+      <g id="Rectangle_361-2" data-name="Rectangle 361" transform="translate(252.5 209.5)" fill="#8a6240" stroke="#f0f0f0" stroke-width="1">
+        <rect width="167" height="167" rx="30" stroke="none"/>
+        <rect x="0.5" y="0.5" width="166" height="166" rx="29.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

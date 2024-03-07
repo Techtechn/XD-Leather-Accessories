@@ -16,7 +16,7 @@ const AboutSection = () => {
             <h5 className="text-3xl text-[#F7B34A] font-bold">
               We Are A Product Designer <br /> With A Focus On Leather Products.
             </h5>
-            <p className="mt-5 text-sm text-wrap">
+            <p className="mt-5 text-sm text-wrap text-white">
               As dedicated product designers specializing in leather, we bring
               creativity and craftsmanship to the forefront. Our focus is on{" "}
               <br />
@@ -38,7 +38,7 @@ const AboutSection = () => {
             <div className="space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
               <div className="">
                 <h5 className="text-3xl text-white font-bold">About Us</h5>
-                <p className="mt-5 text-sm">
+                <p className="mt-5 text-sm text-white">
                   At <b>XD Leather Accessories</b>, we believe in the beauty of
                   craftsmanship and the enduring allure of genuine leather. Our
                   journey began with a passion for creating products that
@@ -57,7 +57,7 @@ const AboutSection = () => {
               <div className=""></div>
               <div className="">
                 <h5 className="text-3xl text-white font-bold">Our Mission</h5>
-                <p className="mt-5 text-sm">
+                <p className="mt-5 text-sm text-white">
                   At <b>XD Leather Accessories</b>, we believe in the beauty of
                   craftsmanship and the enduring allure of genuine leather. Our
                   journey began with a passion for creating products that
