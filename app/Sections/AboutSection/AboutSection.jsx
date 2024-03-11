@@ -76,7 +76,7 @@ const AboutSection = () => {
               {/* first div */}
               <div className="">
                 <div className="">
-                  <h6>
+                  <h6 className="text-white">
                     Our{" "}
                     <span className="text-[#F7B34A] font-bold">
                       Collections

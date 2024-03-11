@@ -5,6 +5,7 @@ import AboutSection from "../Sections/AboutSection/AboutSection";
 import BestSeller from "../Sections/BestSeller/BestSeller";
 import WhyUs from "../Sections/WhyUs/WhyUs";
 import Join from "../Sections/Join/Join";
+import Testimonial from "../Sections/Testimonial/Testimonial";
 
 const Landing = () => {
   return (
@@ -15,6 +16,7 @@ const Landing = () => {
       <BestSeller />
       <WhyUs />
       <Join />
+      <Testimonial />
     </div>
   );
 };
