@@ -6,6 +6,7 @@ import BestSeller from "../Sections/BestSeller/BestSeller";
 import WhyUs from "../Sections/WhyUs/WhyUs";
 import Join from "../Sections/Join/Join";
 import Testimonial from "../Sections/Testimonial/Testimonial";
+import Craftsmanship from "../Sections/Craftsmanship/Craftsmanship";
 
 const Landing = () => {
   return (
@@ -17,6 +18,7 @@ const Landing = () => {
       <WhyUs />
       <Join />
       <Testimonial />
+      <Craftsmanship />
     </div>
   );
 };
