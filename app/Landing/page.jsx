@@ -7,6 +7,7 @@ import WhyUs from "../Sections/WhyUs/WhyUs";
 import Join from "../Sections/Join/Join";
 import Testimonial from "../Sections/Testimonial/Testimonial";
 import Craftsmanship from "../Sections/Craftsmanship/Craftsmanship";
+import Blog from "../Sections/Blog/Blog";
 
 const Landing = () => {
   return (
@@ -19,6 +20,7 @@ const Landing = () => {
       <Join />
       <Testimonial />
       <Craftsmanship />
+      <Blog />
     </div>
   );
 };
