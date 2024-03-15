@@ -1,0 +1,13 @@
+// .Footer {}
+
+@media (max-width: 600px) {
+  .Footer {
+    .Logo {
+      display: none;
+    }
+
+    .Menu {
+      display: none;
+    }
+  }
+}

@@ -8,6 +8,10 @@ import Join from "../Sections/Join/Join";
 import Testimonial from "../Sections/Testimonial/Testimonial";
 import Craftsmanship from "../Sections/Craftsmanship/Craftsmanship";
 import Blog from "../Sections/Blog/Blog";
+import Gallery from "../Sections/Gallery/Gallery";
+import Connect from "../Sections/Connect/Connect";
+import Stats from "../Sections/Stats/Stats";
+import Footer from "../Sections/Footer/Footer";
 
 const Landing = () => {
   return (
@@ -21,6 +25,10 @@ const Landing = () => {
       <Testimonial />
       <Craftsmanship />
       <Blog />
+      <Gallery />
+      <Connect />
+      <Stats />
+      <Footer />
     </div>
   );
 };

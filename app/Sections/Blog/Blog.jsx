@@ -4,6 +4,7 @@ import Image from "next/image";
 import Tiktok from "../../assets/Tiktok.svg";
 import Instagram from "../../assets/Instagram.svg";
 import Facebook from "../../assets/Facebook.svg";
+import BlogCard from "@/app/Components/BlogCard/BlogCard";
 
 const Blog = () => {
   return (
@@ -23,8 +24,10 @@ const Blog = () => {
           </div>
           {/* Details */}
           <div className="">
-            <h6 className="text-md font-semibold mb-2">Leather Lifestyle</h6>
-            <p>
+            <h6 className="text-md text-black font-semibold mb-2">
+              Leather Lifestyle
+            </h6>
+            <p className="text-black">
               Dive into our blog for insights into leather care, style guides,
               and behind-the- <br /> scenes glimpses into our workshop.
             </p>
@@ -75,6 +78,24 @@ const Blog = () => {
           </div>
         </div>
         {/* Featured Blog */}
+
+        {/* Latest News */}
+        <div className="mt-5">
+          <div className="">
+            <div className="space-y-2 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
+              <div className="max-w-xl lg:py-32">
+                <h2 className="text-black text-2xl font-bold">
+                  Latest <br />
+                  News
+                </h2>
+              </div>
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+            </div>
+          </div>
+        </div>
+        {/* Latest News */}
       </div>
     </div>
   );
