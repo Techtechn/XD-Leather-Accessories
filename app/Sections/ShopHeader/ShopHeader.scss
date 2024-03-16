@@ -1,0 +1,25 @@
+.ShopHeader {
+  height: 99vh;
+}
+
+@media (max-width: 600px) {
+  .ShopHeader {
+    // height: 100vh;
+
+    // .py-24 {
+    // }
+
+    .text {
+      margin-top: 5%;
+
+      .ImgMe {
+        width: 300px;
+      }
+    }
+    .pl-3 {
+      padding-left: 2%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
