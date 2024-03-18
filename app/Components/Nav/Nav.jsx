@@ -9,8 +9,8 @@ import Logo from "../../assets/XD-logo.png";
 const navigation = [
   { name: "About Us", href: "/" },
   { name: "Shop", href: "/Shop" },
-  { name: "Blog", href: "#" },
-  { name: "Contact Us", href: "#" },
+  // { name: "Blog", href: "#" },
+  { name: "Contact Us", href: "/Contact" },
 ];
 
 export default function Nav() {

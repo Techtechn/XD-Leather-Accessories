@@ -1,0 +1,44 @@
+.ContactHeader {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)),
+    url("../../assets/Banner-4.png");
+  height: 99vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .phoneImg {
+    animation: move 3s infinite ease alternate;
+  }
+
+  @keyframes move {
+    from {
+      transform: translateY(-15px);
+    }
+
+    // to {
+    //   transform: translateY(0px) scale(1.03);
+    // }
+  }
+}
+
+@media (max-width: 600px) {
+  .ContactHeader {
+    // height: 100vh;
+
+    // .py-24 {
+    // }
+
+    .text {
+      margin-top: 5%;
+
+      .ImgMe {
+        width: 300px;
+      }
+    }
+    .pl-3 {
+      padding-left: 2%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
