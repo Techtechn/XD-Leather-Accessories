@@ -7,7 +7,7 @@ import Link from "next/link";
 import Logo from "../../assets/XD-logo.png";
 
 const navigation = [
-  { name: "About Us", href: "#" },
+  { name: "About Us", href: "/" },
   { name: "Shop", href: "/Shop" },
   { name: "Blog", href: "#" },
   { name: "Contact Us", href: "#" },
@@ -17,7 +17,7 @@ export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-transparent">
+    <div className="bg-[#5A4936] text-white bg-fixed">
       <header className="inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
