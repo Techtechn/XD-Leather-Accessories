@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Img from "../../assets/collection-1.png";
+import Img from "../../assets/Collection-1.png";
 const products = [
   {
     id: 1,
