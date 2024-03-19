@@ -17,8 +17,8 @@ export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-[#5A4936] text-white bg-fixed">
-      <header className="inset-x-0 top-0 z-50">
+    <div className="text-white py-16">
+      <header className="inset-x-0 top-0 z-50 fixed bg-[#5A4936]">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
           aria-label="Global"

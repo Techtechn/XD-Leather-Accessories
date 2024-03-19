@@ -14,7 +14,7 @@ const HomeHeader = () => {
       // style={{ backgroundColor: "#f2f7f8", color: "#3d4f60" }}
     >
       <Nav />
-      <div className="lg:px-6">
+      <div className="lg:px-6 my-10">
         <div className="p-3 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
           {/* py-24 sm:py-0 */}
           <div className="pl-3 max-w-xl lg:py-16">

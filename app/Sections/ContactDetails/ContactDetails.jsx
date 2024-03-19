@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactDetails.scss";
+import Btn from "@/app/Components/Btn/Btn";
 
 const ContactDetails = () => {
   return (
@@ -52,6 +53,9 @@ const ContactDetails = () => {
                       rows="10"
                       placeholder="Message"
                     ></textarea>
+                    <div className="mt-5 text-center">
+                      <Btn text="Send" />
+                    </div>
                   </form>
                 </div>
               </div>
