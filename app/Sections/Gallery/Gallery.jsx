@@ -1,6 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import Img from "../../assets/Collection-1.png";
+import Img from "../../assets/Img-3.png";
+import Img2 from "../../assets/Img-2.png";
+import Img9 from "../../assets/news-2.png";
+import Img3 from "../../assets/Img-7.png";
+import Img4 from "../../assets/Collection-1.png";
+import Img5 from "../../assets/Collection-3.png";
+import Img6 from "../../assets/Img-4.png";
+import Img7 from "../../assets/Img-8.png";
+import Img8 from "../../assets/Img-9.png";
+// import Img9 from "../../assets/Img-3.png";
+
 const products = [
   {
     id: 1,
@@ -16,7 +26,7 @@ const products = [
     name: "Nomad Tumbler",
     href: "#",
     price: "$35",
-    imageSrc: Img,
+    imageSrc: Img2,
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
@@ -25,7 +35,7 @@ const products = [
     name: "Focus Paper Refill",
     href: "#",
     price: "$89",
-    imageSrc: Img,
+    imageSrc: Img9,
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -34,7 +44,52 @@ const products = [
     name: "Machined Mechanical Pencil",
     href: "#",
     price: "$35",
-    imageSrc: Img,
+    imageSrc: Img3,
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+  },
+  {
+    id: 5,
+    name: "Machined Mechanical Pencil",
+    href: "#",
+    price: "$35",
+    imageSrc: Img4,
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+  },
+  {
+    id: 6,
+    name: "Machined Mechanical Pencil",
+    href: "#",
+    price: "$35",
+    imageSrc: Img5,
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+  },
+  {
+    id: 7,
+    name: "Machined Mechanical Pencil",
+    href: "#",
+    price: "$35",
+    imageSrc: Img6,
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+  },
+  {
+    id: 8,
+    name: "Machined Mechanical Pencil",
+    href: "#",
+    price: "$35",
+    imageSrc: Img7,
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+  },
+  {
+    id: 9,
+    name: "Machined Mechanical Pencil",
+    href: "#",
+    price: "$35",
+    imageSrc: Img8,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
@@ -50,14 +105,14 @@ export default function Gallery() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="p-3 space-y-2 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
           {products.map((product) => (
             <a key={product.id} href={product.href} className="group">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                 <Image
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center group-hover:opacity-75"
+                  className="h-full w-full group-hover:opacity-75"
                 />
               </div>
               {/* <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>

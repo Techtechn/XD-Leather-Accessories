@@ -1,63 +1,72 @@
 import React from "react";
 import Image from "next/image";
 import ImgOne from "../../assets/shop-img-1.png";
+import ImgTwo from "../../assets/shop-img-2.png";
+import ImgThree from "../../assets/shop-img-3.png";
+import ImgFour from "../../assets/shop-img-4.png";
 
 const callouts = [
   {
-    name: "Desk and Office",
-    description: "Work from home accessories",
+    name: "Leather Bag",
+    description: "R1099.99",
     imageSrc: ImgOne,
     imageAlt: ImgOne,
     href: "#",
   },
   {
-    name: "Self-Improvement",
-    description: "Journals and note-taking",
-    imageSrc: ImgOne,
+    name: "Leather Bag",
+    description: "R1099.99",
+    imageSrc: ImgTwo,
     imageAlt:
       "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
     href: "#",
   },
   {
-    name: "Travel",
-    description: "Daily commute essentials",
-    imageSrc: ImgOne,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    name: "Leather Bag",
+    description: "R1099.99",
+    imageSrc: ImgThree,
+    imageAlt:
+      "Collection of four insulated Leather Bag bottles on wooden shelf.",
     href: "#",
   },
   {
-    name: "Travel",
-    description: "Daily commute essentials",
-    imageSrc: ImgOne,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    name: "Leather Bag",
+    description: "R1099.99",
+    imageSrc: ImgFour,
+    imageAlt:
+      "Collection of four insulated Leather Bag bottles on wooden shelf.",
     href: "#",
   },
   {
-    name: "Travel",
-    description: "Daily commute essentials",
+    name: "Leather Bag",
+    description: "R1099.99",
     imageSrc: ImgOne,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    imageAlt:
+      "Collection of four insulated Leather Bag bottles on wooden shelf.",
     href: "#",
   },
   {
-    name: "Travel",
-    description: "Daily commute essentials",
-    imageSrc: ImgOne,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    name: "Leather Bag",
+    description: "R1099.99",
+    imageSrc: ImgTwo,
+    imageAlt:
+      "Collection of four insulated Leather Bag bottles on wooden shelf.",
     href: "#",
   },
   {
-    name: "Travel",
-    description: "Daily commute essentials",
-    imageSrc: ImgOne,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    name: "Leather Bag",
+    description: "R1099.99",
+    imageSrc: ImgThree,
+    imageAlt:
+      "Collection of four insulated Leather Bag bottles on wooden shelf.",
     href: "#",
   },
   {
-    name: "Travel",
-    description: "Daily commute essentials",
-    imageSrc: ImgOne,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    name: "Leather Bag",
+    description: "R1099.99",
+    imageSrc: ImgFour,
+    imageAlt:
+      "Collection of four insulated Leather Bag bottles on wooden shelf.",
     href: "#",
   },
 ];
@@ -85,9 +94,12 @@ export default function ShopBy() {
                     {callout.name}
                   </a>
                 </h3>
-                <p className="text-base font-semibold text-gray-900">
+                <p className="text-xl font-bold text-[#F7B34A]">
                   {callout.description}
                 </p>
+                <button className="p-3 mt-5 bg-[#102820] w-[190] h-[619] text-white rounded-xl">
+                  Add to Cart
+                </button>
               </div>
             ))}
           </div>
